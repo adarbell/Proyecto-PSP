@@ -1,4 +1,4 @@
-package ServicioCorreo;
+package ServicioCorreo.Objetos;
 
 public class Email {
     public String asunto;
