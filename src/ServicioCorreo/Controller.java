@@ -1,4 +1,4 @@
-package sample;
+package ServicioCorreo;
 
 public class Controller {
 }
