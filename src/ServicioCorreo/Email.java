@@ -3,10 +3,10 @@ package ServicioCorreo;
 public class Email {
     public String asunto;
     public String origen;
-    public String destino;
+    public String[] destino;
     public String contenido;
 
-    public Email(String asunto, String origen, String destino, String contenido) {
+    public Email(String asunto, String origen, String[] destino, String contenido) {
         this.asunto = asunto;
         this.origen = origen;
         this.destino = destino;
@@ -29,11 +29,11 @@ public class Email {
         this.origen = origen;
     }
 
-    public String getDestino() {
+    public String[] getDestino() {
         return destino;
     }
 
-    public void setDestino(String destino) {
+    public void setDestino(String[] destino) {
         this.destino = destino;
     }
 
