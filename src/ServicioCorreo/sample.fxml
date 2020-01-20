@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.geometry.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<GridPane alignment="center" prefHeight="300.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ServicioCorreo.Controller">
+<GridPane alignment="center" prefHeight="319.0" prefWidth="468.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ServicioCorreo.Controller">
    <columnConstraints>
+      <ColumnConstraints />
       <ColumnConstraints />
    </columnConstraints>
    <rowConstraints>
@@ -12,17 +14,13 @@
       <RowConstraints />
    </rowConstraints>
    <children>
-      <HBox prefHeight="53.0" prefWidth="287.0">
-         <children>
-            <Label id="labelDestinatario" prefHeight="27.0" prefWidth="108.0" text="Destinatario:" />
-            <TextField id="entryDestinatario" />
-         </children>
-      </HBox>
-      <HBox prefHeight="100.0" prefWidth="200.0" GridPane.rowIndex="1">
-         <children>
-            <Label id="labelAsunto" prefHeight="27.0" prefWidth="103.0" text="Asunto :" />
-            <TextField prefHeight="26.0" prefWidth="139.0" />
-         </children>
-      </HBox>
+      <Label id="labelDestinatario" lineSpacing="5.0" text="Destinatario:">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </Label>
+      <TextField id="entryDestinatario" GridPane.columnIndex="1" />
+      <Label id="labelAsunto" text="Asunto" GridPane.rowIndex="1" />
+      <TextField id="entryAsunto" GridPane.columnIndex="1" GridPane.rowIndex="1" />
    </children>
 </GridPane>
