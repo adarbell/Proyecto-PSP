@@ -1,8 +1,26 @@
-<?import javafx.geometry.Insets?>
-<?import javafx.scene.layout.GridPane?>
+<?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.control.Button?>
-<?import javafx.scene.control.Label?>
-<GridPane fx:controller="ServicioCorreo.Controller"
-          xmlns:fx="http://javafx.com/fxml" alignment="center" hgap="10" vgap="10">
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane alignment="center" prefHeight="319.0" prefWidth="468.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ServicioCorreo.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <Label id="labelDestinatario" lineSpacing="5.0" text="Destinatario:">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </Label>
+      <TextField id="entryDestinatario" GridPane.columnIndex="1" />
+      <Label id="labelAsunto" text="Asunto" GridPane.rowIndex="1" />
+      <TextField id="entryAsunto" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+   </children>
 </GridPane>
