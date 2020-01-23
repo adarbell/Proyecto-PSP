@@ -4,7 +4,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<GridPane alignment="center" prefHeight="319.0" prefWidth="468.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ServicioCorreo.Controller">
+<GridPane alignment="center" prefHeight="319.0" prefWidth="468.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="">
    <columnConstraints>
       <ColumnConstraints />
       <ColumnConstraints />

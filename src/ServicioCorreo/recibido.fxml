@@ -4,7 +4,7 @@
 <?import javafx.scene.layout.*?>
 
 
-<GridPane alignment="center" hgap="10" prefHeight="293.0" prefWidth="237.0" vgap="10" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/10.0.2-internal" fx:controller="">
+<GridPane alignment="center" hgap="10" prefHeight="293.0" prefWidth="237.0" vgap="10" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/10.0.2-internal">
    <children>
       <TableView prefHeight="296.0" prefWidth="405.0">
         <columns>
